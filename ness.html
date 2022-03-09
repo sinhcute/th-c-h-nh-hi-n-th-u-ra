@@ -7,12 +7,12 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="messageDiv"></div>
-    <button type="button" onclick="showMessage();">Click Me!</button>
     <script>
-      function showMessage() {
-        document.getElementById("messageDiv").innerHTML = "Xin chào!";
-      }
+      a = prompt("gia tri a la ");
+      b = prompt("hia tri b la ");
+      if (a % b == 0) {
+        alert(a + "chia hết chi" + b);
+      } else alert(a + " khong chia hết cho " + b);
     </script>
   </body>
 </html>
